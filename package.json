@@ -1,6 +1,6 @@
 {
   "name": "react-ka-auto-translate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is the best component to translate all languages you need in your app",
   "main": "dist/index.js",
   "scripts": {

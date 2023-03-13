@@ -8,10 +8,15 @@
     "build": "rollup -c",
     "start": "rollup -c -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kambaia/react-ka-auto-translate.git"
+ },
   "keywords": [
     "KTraductor",
     "KTranslate"
   ],
+  "homepage": "https://github.com/kambaia/react-ka-auto-translate#readme",
   "author": "Kambaia Alberto",
   "license": "ISC",
   "devDependencies": {

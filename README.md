@@ -3,7 +3,7 @@
 
 * This is the best component to translate every language you need in your app
 
-#Install 
+## Install 
 
 ```shell
    yarn add react-ka-auto-translate 
@@ -13,7 +13,7 @@
 ```
 
 
-### how can you use it
+##### how can you use it
 
 * 1st You need to import the line below
 ```js
@@ -32,7 +32,7 @@ _app.tsx
 ``` 
 react app.tsx
 
-### 3rd creates the file in the utils folder preferably and add the code below
+*  3rd creates the file in the utils folder preferably and add the code below
 
 ```js
 // example
@@ -53,7 +53,7 @@ const cacheProvider = {
 export default cacheProvider;
 ```
 
-### Still in the app.tsx file add the following code below
+*  Still in the app.tsx file add the following code below
 
 ```js
 import type { AppProps } from 'next/app';
@@ -69,9 +69,9 @@ export default function App({ Component, pageProps }: AppProps) {
 
 ```
 
-### Still in the app.tsx file add the following code below
+*  Still in the app.tsx file add the following code below
 
- * Finally let's translate our components by importing the KTranslate component
+ - Finally let's translate our components by importing the KTranslate component
   ```js
    <h3><Translate>
           Olá 

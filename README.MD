@@ -78,5 +78,3 @@ export default function App({ Component, pageProps }: AppProps) {
         </Translate></h3>
       </main>
     ```
-
-
